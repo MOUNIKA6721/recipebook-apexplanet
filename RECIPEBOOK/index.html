@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bachu's Recipe Book</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Book cover section -->
+  <div id="bookCover">
+    <h1>Bachu's Recipe Book</h1>
+    <p>A collection of delicious recipes 🍲</p>
+    <button id="startBtn" class="btn">Start Cooking</button>
+  </div>
+
+  <!-- Recipe selection list -->
+  <div id="recipeList" class="hidden">
+    <h2>Select a Recipe:</h2>
+    <button class="recipe-btn" data-recipe="dal">Dal Tadka</button>
+    <button class="recipe-btn" data-recipe="chicken">Creamy Garlic Chicken</button>
+    <button class="recipe-btn" data-recipe="potato">Hasselback Potato</button>
+    <button class="recipe-btn" data-recipe="biryani">Chicken Biryani</button>
+    <button class="recipe-btn" data-recipe="alfredo">Pasta Alfredo</button>
+    <button class="recipe-btn" data-recipe="paneer">Paneer Butter Masala</button>
+  </div>
+
+  <!-- Recipe details output -->
+  <div id="recipeDetails"></div>
+</body>
+</html>
